@@ -1,6 +1,8 @@
 # Dynamic-Programming-Memoization-and-minimax-Visualizer---Tic-Tac-Toe-AI
 An interactive Python GUI that visualizes how memoization dramatically optimizes game-tree search algorithms in adversarial AI.
 
+This is part of the reinforcement learning course assignment package.
+
 This repository contains a standalone, interactive Python application that implements an unbeatable Tic-Tac-Toe agent using the Minimax algorithm. Beyond simply playing the game, the application serves as a live visualizer for the AI's internal decision-making process. It utilizes a transposition table (memoization) to cache previously evaluated board configurations, preventing the agent from redundantly simulating identical branches of the game tree. As the user plays against the AI via the graphical interface, a real-time "Brain Log" displays exactly how many new recursive node evaluations were computed versus how many times the agent instantly pulled a previously solved state from its memory cache.
 
 As an educational tool, this project perfectly bridges the gap between theoretical Artificial Intelligence (adversarial search) and practical Algorithm Optimization (dynamic programming). Naive game-tree searches suffer from massive inefficiency, often evaluating hundreds of thousands of redundant permutations even in a small state space like Tic-Tac-Toe. By exposing the underlying computational metrics to the user—especially the stark contrast between an initial empty-cache game and a subsequent game played with a populated cache—students gain a concrete, visual understanding of dynamic programming. It transforms an abstract computer science concept into an observable phenomenon, proving exactly why caching is an essential technique for writing scalable code.
