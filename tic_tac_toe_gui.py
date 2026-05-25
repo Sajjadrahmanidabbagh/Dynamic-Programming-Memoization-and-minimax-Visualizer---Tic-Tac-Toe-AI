@@ -55,7 +55,7 @@ def evaluate_state(board, is_maximizing):
         memo_table[board] = best_value
         return best_value
 
-# --- GUI Application ---
+# --- GUI Application ----
 class TicTacToeGUI:
     def __init__(self, root):
         self.root = root
