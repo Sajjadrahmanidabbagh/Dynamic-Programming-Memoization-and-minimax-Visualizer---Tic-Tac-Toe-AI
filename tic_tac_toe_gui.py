@@ -1,3 +1,5 @@
+# By Sajjad - Spring 2026
+
 import tkinter as tk
 import time
 
