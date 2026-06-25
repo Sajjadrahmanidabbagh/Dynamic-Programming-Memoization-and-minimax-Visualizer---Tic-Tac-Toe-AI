@@ -174,6 +174,6 @@ class TicTacToeGUI:
 if __name__ == "__main__":
     root = tk.Tk()
     app = TicTacToeGUI(root)
-    print("SUCCESS: The code finished running and is opening the window now!") # Add this
+    print("SUCCESS: The code finished running and is opening the window now.") # Add this
     root.mainloop()
     
